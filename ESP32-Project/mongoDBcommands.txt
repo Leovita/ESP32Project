@@ -1,0 +1,12 @@
+sudo systemctl start mongod
+
+if errors --> sudo systemctl daemon-reload
+
+sudo systemctl status mongod
+
+sudo systemctl stop mongod
+
+sudo systemctl restart mongod
+
+mongosh "mongodb+srv://iotprojectesp32.ixlau.mongodb.net/IotProjectESP32" --apiVersion 1 --username lvitale
+
